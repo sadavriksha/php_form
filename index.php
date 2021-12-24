@@ -70,50 +70,54 @@
             }?>
         </p>
         <form action="#" onsubmit="return validation()" method="post" class="form">
-        <div class="input-field">
+            <div class="input-field">
                 <label for="userid" class="input-label">Userid</label>
-                <input type="userid" name="userid" id="userid" class="input" placeholder="Enter Userid" required>
+                <input type="userid" name="userid" id="userid" class="input" placeholder="Enter Userid">
                 <span id="userid1"></span>
             </div>
             <div class="input-field">
                 <label for="name" class="input-label">Full Name</label>
-                <input type="name" name="name" id="name" class="input" placeholder="Enter your full name" required>
+                <input type="name" name="name" id="name" class="input" placeholder="Enter your full name">
                 <span id="name1"></span>
             </div>
+            <div class="item1">
             <div class="input-field">
                 <label for="email" class="input-label">Email</label>
-                <input type="email" name="email" id="email" class="input" placeholder="Enter your email" required>
+                <input type="email" name="email" id="email" class="input" placeholder="Enter your email">
                  <span id="email1"></span>
             </div>
             <div class="input-field">
                 <label for="password" class="input-label">Password</label>
-                <input type="password" name="password" id="password" class="input" placeholder="Enter your password" required>
+                <input type="password" name="password" id="password" class="input" placeholder="Enter your password">
                 <span id="password1"></span>
             </div>
+            </div>
+
             <div class="input-field">
                 <label for="cpassword" class="input-label">Confirm Password</label>
-                <input type="password" name="cpassword" id="cpassword" class="input" placeholder="Enter your confirm password" required>
+                <input type="password" name="cpassword" id="cpassword" class="input" placeholder="Enter your confirm password">
                 <span id="cpassword1"></span>
             </div>
             <div class="input-field">
                 <label for="phone" class="input-label">PHONE</label>
-                <input type="phone" name="phone" id="phone" class="input" placeholder="Enter your phone" required>
+                <input type="phone" name="phone" id="phone" class="input" placeholder="Enter your phone">
                 <span id="phone1"></span>
             </div>
+            <div class="item2">
             <div class="input-field">
                 <label for="age" class="input-label">Age</label>
-                <input type="age" name="age" id="age" class="input" placeholder="Enter your age" required>
+                <input type="age" name="age" id="age" class="input" placeholder="Enter your age">
                 <span id="age1"></span>
             </div>
             <div class="input-field">
                 <label for="gender" class="input-label">Gender</label>
-                <input type="gender" name="gender" id="gender" class="input" placeholder="Enter your confirm gender" required>
+                <input type="gender" name="gender" id="gender" class="input" placeholder="Enter your confirm gender">
                 <span id="gender1"></span>
+            </div>
             </div>
 
             <input class="btn" type="submit" id="submit"  name="submit">Register</input>
         </form>
     </div>
    <script src="sada.js"></script>
-</body>
-</html>
+</body
